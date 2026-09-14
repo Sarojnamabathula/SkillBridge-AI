@@ -1,0 +1,298 @@
+{
+  "Python": [
+    "py",
+    "python3",
+    "python programming",
+    "python language",
+    "py3"
+  ],
+  "SQL": [
+    "structured query language",
+    "mysql",
+    "postgresql",
+    "postgres",
+    "sqlite",
+    "tsql",
+    "plsql",
+    "sql query",
+    "database queries",
+    "sql server"
+  ],
+  "JavaScript": [
+    "js",
+    "ecmascript",
+    "javascript programming",
+    "vanilla js",
+    "vanillajs",
+    "es6"
+  ],
+  "TypeScript": [
+    "ts",
+    "typescript programming"
+  ],
+  "HTML & CSS": [
+    "html",
+    "css",
+    "html5",
+    "css3",
+    "html/css",
+    "web styling",
+    "flexbox",
+    "grid"
+  ],
+  "React": [
+    "reactjs",
+    "react.js",
+    "react framework",
+    "react native"
+  ],
+  "Statistics & Probability": [
+    "stats",
+    "statistics",
+    "probability",
+    "statistical analysis",
+    "descriptive statistics",
+    "inferential statistics",
+    "hypothesis testing"
+  ],
+  "Data Analysis Libraries": [
+    "pandas",
+    "numpy",
+    "scipy",
+    "data analysis libs",
+    "pandas and numpy",
+    "data manipulation"
+  ],
+  "Data Visualization": [
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "dataviz",
+    "data visualization libraries",
+    "charts and graphs"
+  ],
+  "Business Intelligence Tools": [
+    "power bi",
+    "powerbi",
+    "tableau",
+    "bi tools",
+    "business intelligence"
+  ],
+  "Excel & Spreadsheets": [
+    "excel",
+    "ms excel",
+    "google sheets",
+    "spreadsheets",
+    "vlookup",
+    "pivot tables"
+  ],
+  "Git & Version Control": [
+    "git",
+    "github",
+    "gitlab",
+    "version control",
+    "vcs",
+    "git flow"
+  ],
+  "Programming Fundamentals": [
+    "programming basics",
+    "coding fundamentals",
+    "algorithms and logic",
+    "basic programming"
+  ],
+  "Data Structures & Algorithms": [
+    "dsa",
+    "data structures",
+    "algorithms",
+    "ds & algo",
+    "leetcode"
+  ],
+  "Software Testing & QA": [
+    "testing",
+    "qa",
+    "unit testing",
+    "pytest",
+    "junit",
+    "tdd",
+    "test driven development",
+    "quality assurance"
+  ],
+  "Object-Oriented Programming (OOP)": [
+    "oop",
+    "object oriented programming",
+    "oops",
+    "object oriented design"
+  ],
+  "Docker & Containers": [
+    "docker",
+    "containerization",
+    "containers",
+    "docker containers",
+    "docker compose"
+  ],
+  "Backend Development": [
+    "backend",
+    "server side",
+    "node.js",
+    "nodejs",
+    "express",
+    "fastapi",
+    "django",
+    "flask",
+    "rest api",
+    "apis"
+  ],
+  "Responsive Web Design": [
+    "responsive design",
+    "mobile first",
+    "responsive layout",
+    "css media queries"
+  ],
+  "Web Performance & Accessibility": [
+    "web performance",
+    "accessibility",
+    "a11y",
+    "wcag",
+    "web optimization"
+  ],
+  "CSS Frameworks": [
+    "tailwind",
+    "tailwindcss",
+    "bootstrap",
+    "bulma",
+    "mui",
+    "material ui"
+  ],
+  "Mathematics & Linear Algebra": [
+    "linear algebra",
+    "calculus",
+    "math for ml",
+    "matrices",
+    "matrix math"
+  ],
+  "Machine Learning Fundamentals": [
+    "ml",
+    "machine learning",
+    "sklearn",
+    "scikit-learn",
+    "supervised learning",
+    "unsupervised learning",
+    "classification and regression"
+  ],
+  "Deep Learning & Neural Networks": [
+    "dl",
+    "deep learning",
+    "neural networks",
+    "pytorch",
+    "tensorflow",
+    "keras",
+    "cnns",
+    "rnns"
+  ],
+  "Natural Language Processing (NLP)": [
+    "nlp",
+    "natural language processing",
+    "text mining",
+    "transformers",
+    "huggingface",
+    "bert",
+    "llms"
+  ],
+  "MLOps & Model Deployment": [
+    "mlops",
+    "model deployment",
+    "model serving",
+    "mlflow",
+    "wandb"
+  ],
+  "Computer Networking Fundamentals": [
+    "networking",
+    "tcp/ip",
+    "osi model",
+    "dns",
+    "subnets",
+    "ip networking",
+    "network protocols"
+  ],
+  "Operating System Security": [
+    "os security",
+    "windows security",
+    "linux security",
+    "system hardening",
+    "sysadmin security"
+  ],
+  "Information Security Fundamentals": [
+    "infosec",
+    "cybersecurity basics",
+    "security fundamentals",
+    "cia triad",
+    "cyber security"
+  ],
+  "Threat Analysis & Monitoring": [
+    "siem",
+    "threat analysis",
+    "soc",
+    "intrusion detection",
+    "ids/ips",
+    "splunk"
+  ],
+  "Vulnerability Assessment": [
+    "vulnerability scanning",
+    "nmap",
+    "wireshark",
+    "nessus",
+    "security audit"
+  ],
+  "Cryptography Basics": [
+    "crypto",
+    "cryptography",
+    "encryption",
+    "pki",
+    "hashing",
+    "ssl/tls"
+  ],
+  "Ethical Hacking & Penetration Testing": [
+    "pen testing",
+    "penetration testing",
+    "ethical hacking",
+    "red teaming",
+    "metasploit"
+  ],
+  "Cloud Platforms (AWS/Azure/GCP)": [
+    "aws",
+    "azure",
+    "gcp",
+    "amazon web services",
+    "google cloud",
+    "microsoft azure",
+    "cloud computing",
+    "cloud platforms"
+  ],
+  "Linux Administration": [
+    "linux",
+    "ubuntu",
+    "bash",
+    "shell scripting",
+    "unix",
+    "linux sysadmin"
+  ],
+  "Infrastructure as Code (Terraform/CloudFormation)": [
+    "terraform",
+    "cloudformation",
+    "iac",
+    "infrastructure as code"
+  ],
+  "CI/CD Pipelines": [
+    "cicd",
+    "ci/cd",
+    "github actions",
+    "jenkins",
+    "gitlab ci",
+    "continuous integration"
+  ],
+  "Kubernetes": [
+    "k8s",
+    "kubernetes",
+    "container orchestration"
+  ]
+}

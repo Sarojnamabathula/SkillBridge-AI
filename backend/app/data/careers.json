@@ -1,0 +1,553 @@
+[
+  {
+    "career_id": "data_analyst",
+    "name": "Data Analyst",
+    "description": "Transforms raw data into actionable insights through statistical analysis, data visualization, and reporting.",
+    "category": "Data & Analytics",
+    "skills": [
+      {
+        "name": "Python",
+        "category": "Programming",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Essential language for data manipulation, script writing, and computational analysis."
+      },
+      {
+        "name": "SQL",
+        "category": "Database",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Core language for querying relational databases, data extraction, aggregation, and joining tables."
+      },
+      {
+        "name": "Statistics & Probability",
+        "category": "Mathematics",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Fundamental for hypothesis testing, summary statistics, distribution analysis, and sampling."
+      },
+      {
+        "name": "Data Analysis Libraries",
+        "category": "Data Science",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Python"],
+        "essential": true,
+        "description": "Libraries such as Pandas and NumPy for tabular data processing and mathematical computations."
+      },
+      {
+        "name": "Data Visualization",
+        "category": "Data Science",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Python", "Data Analysis Libraries"],
+        "essential": true,
+        "description": "Creating charts and dashboard visualizations using Matplotlib, Seaborn, or Plotly."
+      },
+      {
+        "name": "Business Intelligence Tools",
+        "category": "Business Analytics",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["SQL"],
+        "essential": true,
+        "description": "Dashboard creation using tools like Power BI or Tableau to communicate insights to stakeholders."
+      },
+      {
+        "name": "Excel & Spreadsheets",
+        "category": "Data Tools",
+        "importance": "MEDIUM",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": false,
+        "description": "Pivot tables, VLOOKUP/XLOOKUP, and rapid data exploration."
+      },
+      {
+        "name": "R",
+        "category": "Programming",
+        "importance": "OPTIONAL",
+        "required_level": "BEGINNER",
+        "prerequisites": ["Statistics & Probability"],
+        "essential": false,
+        "description": "Alternative statistical programming language popular in research and specific enterprise domains."
+      }
+    ]
+  },
+  {
+    "career_id": "software_developer",
+    "name": "Software Developer",
+    "description": "Designs, builds, tests, and maintains robust software applications and system architecture.",
+    "category": "Software Engineering",
+    "skills": [
+      {
+        "name": "Programming Fundamentals",
+        "category": "Computer Science",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Control flow, functions, variables, data structures, and Object-Oriented Programming principles."
+      },
+      {
+        "name": "Data Structures & Algorithms",
+        "category": "Computer Science",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Programming Fundamentals"],
+        "essential": true,
+        "description": "Arrays, LinkedLists, Trees, Hash Tables, sorting, searching, and time/space complexity analysis."
+      },
+      {
+        "name": "Git & Version Control",
+        "category": "Development Tools",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Branching, merging, pull requests, resolving merge conflicts, and collaborative software workflows."
+      },
+      {
+        "name": "Python",
+        "category": "Programming",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Programming Fundamentals"],
+        "essential": true,
+        "description": "Versatile backend, scripting, and automation programming language."
+      },
+      {
+        "name": "SQL",
+        "category": "Database",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Relational data modeling, querying, schema design, and database interaction."
+      },
+      {
+        "name": "Software Testing & QA",
+        "category": "Quality Assurance",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Programming Fundamentals"],
+        "essential": true,
+        "description": "Unit testing, integration testing, test-driven development (TDD), and test automation frameworks."
+      },
+      {
+        "name": "Object-Oriented Programming (OOP)",
+        "category": "Architecture",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Programming Fundamentals"],
+        "essential": true,
+        "description": "Encapsulation, inheritance, polymorphism, abstraction, and clean software architecture design."
+      },
+      {
+        "name": "Docker & Containers",
+        "category": "DevOps",
+        "importance": "OPTIONAL",
+        "required_level": "BEGINNER",
+        "prerequisites": ["Git & Version Control"],
+        "essential": false,
+        "description": "Containerizing applications for consistent deployment across environments."
+      }
+    ]
+  },
+  {
+    "career_id": "full_stack_developer",
+    "name": "Full Stack Developer",
+    "description": "Builds both client-facing frontends and server-side backends along with database integration.",
+    "category": "Web & Software Engineering",
+    "skills": [
+      {
+        "name": "HTML & CSS",
+        "category": "Frontend",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Semantic web markup, responsive styling, Flexbox, Grid, and UI layout foundations."
+      },
+      {
+        "name": "JavaScript",
+        "category": "Frontend & Backend",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["HTML & CSS"],
+        "essential": true,
+        "description": "Core language for web interactivity, DOM manipulation, asynchronous promises, and modern ES6+ features."
+      },
+      {
+        "name": "React",
+        "category": "Frontend Frameworks",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["JavaScript", "HTML & CSS"],
+        "essential": true,
+        "description": "Component-driven user interface development, state management, hooks, and single-page applications."
+      },
+      {
+        "name": "Backend Development",
+        "category": "Backend",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Programming Fundamentals"],
+        "essential": true,
+        "description": "Building RESTful APIs, web services, routing, and controller logic using Node.js, Python FastAPI, or Express."
+      },
+      {
+        "name": "SQL",
+        "category": "Database",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Designing relational database schemas, writing queries, and utilizing ORMs."
+      },
+      {
+        "name": "Git & Version Control",
+        "category": "Tools",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Collaborative code version control and source code repository management."
+      },
+      {
+        "name": "TypeScript",
+        "category": "Programming",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["JavaScript"],
+        "essential": false,
+        "description": "Static typing extension for JavaScript, enhancing codebase reliability and developer tooling."
+      },
+      {
+        "name": "Docker & DevOps",
+        "category": "DevOps",
+        "importance": "OPTIONAL",
+        "required_level": "BEGINNER",
+        "prerequisites": ["Backend Development"],
+        "essential": false,
+        "description": "Containerization and automated deployment pipelines."
+      }
+    ]
+  },
+  {
+    "career_id": "web_developer",
+    "name": "Web Developer",
+    "description": "Focuses on building responsive, engaging, and accessible web interfaces and applications.",
+    "category": "Web Development",
+    "skills": [
+      {
+        "name": "HTML & CSS",
+        "category": "Frontend",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Fundamental web building blocks, semantic tags, and responsive visual layout."
+      },
+      {
+        "name": "JavaScript",
+        "category": "Frontend",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["HTML & CSS"],
+        "essential": true,
+        "description": "Client-side interactivity, API integration via fetch, dynamic UI events, and modern ES6 JavaScript."
+      },
+      {
+        "name": "Responsive Web Design",
+        "category": "UI/UX",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["HTML & CSS"],
+        "essential": true,
+        "description": "Adapting applications seamlessly across desktop, tablet, and mobile viewport devices."
+      },
+      {
+        "name": "React",
+        "category": "Frontend Frameworks",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["JavaScript", "HTML & CSS"],
+        "essential": true,
+        "description": "Popular UI library for building scalable, componentized frontend client applications."
+      },
+      {
+        "name": "Git & Version Control",
+        "category": "Tools",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Version tracking, GitHub workflows, and project code deployment."
+      },
+      {
+        "name": "Web Performance & Accessibility",
+        "category": "Frontend",
+        "importance": "MEDIUM",
+        "required_level": "BEGINNER",
+        "prerequisites": ["HTML & CSS"],
+        "essential": true,
+        "description": "Optimizing page load speed, WCAG accessibility standards, and semantic accessibility."
+      },
+      {
+        "name": "CSS Frameworks",
+        "category": "Frontend",
+        "importance": "OPTIONAL",
+        "required_level": "BEGINNER",
+        "prerequisites": ["HTML & CSS"],
+        "essential": false,
+        "description": "Rapid styling using UI toolkits such as Tailwind CSS or Bootstrap."
+      }
+    ]
+  },
+  {
+    "career_id": "ai_ml_engineer",
+    "name": "AI / Machine Learning Engineer",
+    "description": "Develops machine learning models, statistical algorithms, and scalable AI infrastructure.",
+    "category": "Artificial Intelligence",
+    "skills": [
+      {
+        "name": "Python",
+        "category": "Programming",
+        "importance": "CRITICAL",
+        "required_level": "ADVANCED",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Primary language for machine learning pipelines, model building, and data preprocessing."
+      },
+      {
+        "name": "Mathematics & Linear Algebra",
+        "category": "Mathematics",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Matrix computations, vectors, calculus, derivatives, gradient descent, and statistical foundations."
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "category": "AI / ML",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Python", "Mathematics & Linear Algebra"],
+        "essential": true,
+        "description": "Supervised, unsupervised, regression, classification, clustering, evaluation metrics, and cross-validation."
+      },
+      {
+        "name": "Data Analysis Libraries",
+        "category": "Data Science",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Python"],
+        "essential": true,
+        "description": "NumPy, Pandas, Scikit-learn for dataset manipulation, feature engineering, and baseline modeling."
+      },
+      {
+        "name": "Deep Learning & Neural Networks",
+        "category": "AI / ML",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Machine Learning Fundamentals"],
+        "essential": true,
+        "description": "Neural network architectures (CNNs, RNNs, Transformers) using PyTorch or TensorFlow."
+      },
+      {
+        "name": "Natural Language Processing (NLP)",
+        "category": "AI / ML",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Machine Learning Fundamentals"],
+        "essential": false,
+        "description": "Text vectorization, tokenization, language models, embeddings, and Transformer architectures."
+      },
+      {
+        "name": "MLOps & Model Deployment",
+        "category": "DevOps / Infrastructure",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Python", "Machine Learning Fundamentals"],
+        "essential": false,
+        "description": "Serving ML models via APIs, containerization, tracking experiments, and monitoring model drift."
+      },
+      {
+        "name": "SQL",
+        "category": "Database",
+        "importance": "MEDIUM",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Extracting and preparing datasets from relational databases for model training."
+      }
+    ]
+  },
+  {
+    "career_id": "cybersecurity_analyst",
+    "name": "Cybersecurity Analyst",
+    "description": "Monitors, detects, protects, and defends systems, networks, and data against cyber threats and breaches.",
+    "category": "Cybersecurity",
+    "skills": [
+      {
+        "name": "Computer Networking Fundamentals",
+        "category": "Networking",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "TCP/IP, OSI model, DNS, subnets, routers, switches, and network protocol inspection."
+      },
+      {
+        "name": "Operating System Security",
+        "category": "Systems",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Linux and Windows administration, permissions, processes, log analysis, and system hardening."
+      },
+      {
+        "name": "Information Security Fundamentals",
+        "category": "Cybersecurity",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "CIA triad (Confidentiality, Integrity, Availability), threat actors, risk management, and security controls."
+      },
+      {
+        "name": "Threat Analysis & Monitoring",
+        "category": "Security Operations",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Computer Networking Fundamentals", "Information Security Fundamentals"],
+        "essential": true,
+        "description": "SIEM tool utilization, intrusion detection/prevention systems (IDS/IPS), and anomaly detection."
+      },
+      {
+        "name": "Vulnerability Assessment",
+        "category": "Security Testing",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Information Security Fundamentals"],
+        "essential": true,
+        "description": "Scanning networks and applications for security flaws using tools like Wireshark, Nmap, or Nessus."
+      },
+      {
+        "name": "Python",
+        "category": "Programming",
+        "importance": "MEDIUM",
+        "required_level": "BEGINNER",
+        "prerequisites": [],
+        "essential": false,
+        "description": "Writing security automation scripts, log parsers, and proof-of-concept exploits."
+      },
+      {
+        "name": "Cryptography Basics",
+        "category": "Security Concepts",
+        "importance": "MEDIUM",
+        "required_level": "BEGINNER",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Symmetric/asymmetric encryption, hashing algorithms, PKI, digital signatures, and TLS."
+      },
+      {
+        "name": "Ethical Hacking & Penetration Testing",
+        "category": "Offensive Security",
+        "importance": "OPTIONAL",
+        "required_level": "BEGINNER",
+        "prerequisites": ["Vulnerability Assessment"],
+        "essential": false,
+        "description": "Simulating cyber attacks to evaluate defensive posture."
+      }
+    ]
+  },
+  {
+    "career_id": "cloud_engineer",
+    "name": "Cloud Engineer",
+    "description": "Architects, deploys, scales, and maintains cloud infrastructure and automated deployment systems.",
+    "category": "Cloud & Infrastructure",
+    "skills": [
+      {
+        "name": "Cloud Platforms (AWS/Azure/GCP)",
+        "category": "Cloud Infrastructure",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Compute instances, virtual networks, object storage, identity management (IAM), and cloud security."
+      },
+      {
+        "name": "Linux Administration",
+        "category": "Operating Systems",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "Command-line navigation, shell scripting, package management, user access control, and system services."
+      },
+      {
+        "name": "Computer Networking Fundamentals",
+        "category": "Networking",
+        "importance": "CRITICAL",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": [],
+        "essential": true,
+        "description": "VPCs, VPNs, firewalls, load balancing, DNS routing, and CIDR subnetting."
+      },
+      {
+        "name": "Docker & Containers",
+        "category": "DevOps",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Linux Administration"],
+        "essential": true,
+        "description": "Building container images, writing Dockerfiles, and containerizing services."
+      },
+      {
+        "name": "Infrastructure as Code (Terraform/CloudFormation)",
+        "category": "DevOps",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Cloud Platforms (AWS/Azure/GCP)"],
+        "essential": true,
+        "description": "Automating cloud infrastructure provisioning via version-controlled declarative configurations."
+      },
+      {
+        "name": "CI/CD Pipelines",
+        "category": "DevOps",
+        "importance": "HIGH",
+        "required_level": "INTERMEDIATE",
+        "prerequisites": ["Git & Version Control"],
+        "essential": true,
+        "description": "Automating build, test, and deployment workflows using GitHub Actions, GitLab CI, or Jenkins."
+      },
+      {
+        "name": "Python",
+        "category": "Programming",
+        "importance": "MEDIUM",
+        "required_level": "BEGINNER",
+        "prerequisites": [],
+        "essential": false,
+        "description": "Infrastructure automation scripts and cloud SDK interactions (e.g., Boto3)."
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Container Orchestration",
+        "importance": "OPTIONAL",
+        "required_level": "BEGINNER",
+        "prerequisites": ["Docker & Containers"],
+        "essential": false,
+        "description": "Orchestrating multi-container production deployments at scale."
+      }
+    ]
+  }
+]

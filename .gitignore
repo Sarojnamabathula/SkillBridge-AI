@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*.db
+*.sqlite3
+backend/.env
+backend/skillbridge.db
+
+# Node / React
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vscode/
+.idea/
+.DS_Store
